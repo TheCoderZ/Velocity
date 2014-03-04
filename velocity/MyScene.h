@@ -7,7 +7,17 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "GameOverScene.h"
 
-@interface MyScene : SKScene
-
+@interface MyScene : SKScene{
+    GameOverScene *gameoverdata;
+    BOOL ballSide;
+    int Touch;
+    int Score;
+    BOOL GameOver;
+    BOOL WhiteAlpha;
+    BOOL IsMoving;
+    SKSpriteNode *WhiteScreen;
+    SKScene *GameOverScene;
+}
 @end

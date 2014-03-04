@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0349F01118B6B46500908E01 /* Programming_Velocity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0349F01018B6B46500908E01 /* Programming_Velocity.mp3 */; };
+		0349F01A18B6CA8A00908E01 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0349F01918B6CA8A00908E01 /* GameOverScene.m */; };
+		03565CB518B31484003C916C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03565CB418B31484003C916C /* Images.xcassets */; };
 		03B607BD18AC2B0B00495A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607BC18AC2B0B00495A96 /* Foundation.framework */; };
 		03B607BF18AC2B0B00495A96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607BE18AC2B0B00495A96 /* CoreGraphics.framework */; };
 		03B607C118AC2B0B00495A96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607C018AC2B0B00495A96 /* UIKit.framework */; };
@@ -14,16 +17,16 @@
 		03B607C918AC2B0B00495A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03B607C718AC2B0B00495A96 /* InfoPlist.strings */; };
 		03B607CB18AC2B0B00495A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B607CA18AC2B0B00495A96 /* main.m */; };
 		03B607CF18AC2B0B00495A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B607CE18AC2B0B00495A96 /* AppDelegate.m */; };
-		03B607D218AC2B0B00495A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B607D018AC2B0B00495A96 /* Main.storyboard */; };
 		03B607D518AC2B0B00495A96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B607D418AC2B0B00495A96 /* ViewController.m */; };
 		03B607D818AC2B0B00495A96 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B607D718AC2B0B00495A96 /* MyScene.m */; };
 		03B607DA18AC2B0B00495A96 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B607D918AC2B0B00495A96 /* Spaceship.png */; };
-		03B607DC18AC2B0B00495A96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B607DB18AC2B0B00495A96 /* Images.xcassets */; };
 		03B607E318AC2B0B00495A96 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607E218AC2B0B00495A96 /* XCTest.framework */; };
 		03B607E418AC2B0B00495A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607BC18AC2B0B00495A96 /* Foundation.framework */; };
 		03B607E518AC2B0B00495A96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607C018AC2B0B00495A96 /* UIKit.framework */; };
 		03B607ED18AC2B0B00495A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03B607EB18AC2B0B00495A96 /* InfoPlist.strings */; };
 		03B607EF18AC2B0B00495A96 /* velocityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B607EE18AC2B0B00495A96 /* velocityTests.m */; };
+		03EA4DF918B3247F002498C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EA4DF718B3247F002498C5 /* Main.storyboard */; };
+		03EA688518B7FC3300A527DD /* StartGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA688418B7FC3300A527DD /* StartGameScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0349F01018B6B46500908E01 /* Programming_Velocity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Programming_Velocity.mp3; path = "../../../../Music/iTunes/iTunes Media/Music/Adil Rahman/Adil Rahman's Album/Programming_Velocity.mp3"; sourceTree = "<group>"; };
+		0349F01818B6CA8A00908E01 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = ../GameOverScene.h; sourceTree = "<group>"; };
+		0349F01918B6CA8A00908E01 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverScene.m; path = ../GameOverScene.m; sourceTree = "<group>"; };
+		03565CB418B31484003C916C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../.Trash/Images.xcassets; sourceTree = "<group>"; };
 		03B607B918AC2B0B00495A96 /* velocity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = velocity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B607BC18AC2B0B00495A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03B607BE18AC2B0B00495A96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,18 +55,19 @@
 		03B607CC18AC2B0B00495A96 /* velocity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "velocity-Prefix.pch"; sourceTree = "<group>"; };
 		03B607CD18AC2B0B00495A96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03B607CE18AC2B0B00495A96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03B607D118AC2B0B00495A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03B607D318AC2B0B00495A96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		03B607D418AC2B0B00495A96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03B607D618AC2B0B00495A96 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		03B607D718AC2B0B00495A96 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
 		03B607D918AC2B0B00495A96 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
-		03B607DB18AC2B0B00495A96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03B607E118AC2B0B00495A96 /* velocityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = velocityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B607E218AC2B0B00495A96 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		03B607EA18AC2B0B00495A96 /* velocityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "velocityTests-Info.plist"; sourceTree = "<group>"; };
 		03B607EC18AC2B0B00495A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03B607EE18AC2B0B00495A96 /* velocityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = velocityTests.m; sourceTree = "<group>"; };
+		03EA4DF818B3247F002498C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03EA688318B7FC3300A527DD /* StartGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartGameScene.h; sourceTree = "<group>"; };
+		03EA688418B7FC3300A527DD /* StartGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartGameScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,13 +131,17 @@
 			children = (
 				03B607CD18AC2B0B00495A96 /* AppDelegate.h */,
 				03B607CE18AC2B0B00495A96 /* AppDelegate.m */,
-				03B607D018AC2B0B00495A96 /* Main.storyboard */,
+				03EA4DF718B3247F002498C5 /* Main.storyboard */,
 				03B607D318AC2B0B00495A96 /* ViewController.h */,
 				03B607D418AC2B0B00495A96 /* ViewController.m */,
+				03EA688318B7FC3300A527DD /* StartGameScene.h */,
+				03EA688418B7FC3300A527DD /* StartGameScene.m */,
 				03B607D618AC2B0B00495A96 /* MyScene.h */,
 				03B607D718AC2B0B00495A96 /* MyScene.m */,
+				0349F01818B6CA8A00908E01 /* GameOverScene.h */,
+				0349F01918B6CA8A00908E01 /* GameOverScene.m */,
 				03B607D918AC2B0B00495A96 /* Spaceship.png */,
-				03B607DB18AC2B0B00495A96 /* Images.xcassets */,
+				03565CB418B31484003C916C /* Images.xcassets */,
 				03B607C518AC2B0B00495A96 /* Supporting Files */,
 			);
 			path = velocity;
@@ -138,6 +150,7 @@
 		03B607C518AC2B0B00495A96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0349F01018B6B46500908E01 /* Programming_Velocity.mp3 */,
 				03B607C618AC2B0B00495A96 /* velocity-Info.plist */,
 				03B607C718AC2B0B00495A96 /* InfoPlist.strings */,
 				03B607CA18AC2B0B00495A96 /* main.m */,
@@ -241,9 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B607C918AC2B0B00495A96 /* InfoPlist.strings in Resources */,
-				03B607DC18AC2B0B00495A96 /* Images.xcassets in Resources */,
+				03565CB518B31484003C916C /* Images.xcassets in Resources */,
 				03B607DA18AC2B0B00495A96 /* Spaceship.png in Resources */,
-				03B607D218AC2B0B00495A96 /* Main.storyboard in Resources */,
+				03EA4DF918B3247F002498C5 /* Main.storyboard in Resources */,
+				0349F01118B6B46500908E01 /* Programming_Velocity.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0349F01A18B6CA8A00908E01 /* GameOverScene.m in Sources */,
+				03EA688518B7FC3300A527DD /* StartGameScene.m in Sources */,
 				03B607D818AC2B0B00495A96 /* MyScene.m in Sources */,
 				03B607D518AC2B0B00495A96 /* ViewController.m in Sources */,
 				03B607CF18AC2B0B00495A96 /* AppDelegate.m in Sources */,
@@ -296,20 +312,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		03B607D018AC2B0B00495A96 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03B607D118AC2B0B00495A96 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03B607EB18AC2B0B00495A96 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				03B607EC18AC2B0B00495A96 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03EA4DF718B3247F002498C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EA4DF818B3247F002498C5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -476,6 +492,7 @@
 				03B607F418AC2B0B00495A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03B607F518AC2B0B00495A96 /* Build configuration list for PBXNativeTarget "velocityTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +501,7 @@
 				03B607F718AC2B0B00495A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MyScene.h"
+#import "StartGameScene.h"
 
 @implementation ViewController
 
@@ -21,25 +21,17 @@
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
+    startscene = [StartGameScene sceneWithSize:skView.bounds.size];
+    startscene.scaleMode = SKSceneScaleModeAspectFill;
+    // CHANGE BACKGROUND COLOR FROM ATTRIBUTE BELOW...
+    startscene.backgroundColor = [SKColor lightGrayColor];
+    startscene.zPosition = 0;
     // Present the scene.
-    [skView presentScene:scene];
-}
-
-- (BOOL)shouldAutorotate
-{
-    return YES;
-}
-
-- (NSUInteger)supportedInterfaceOrientations
-{
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
+    [skView presentScene:startscene];
     }
+
+-(IBAction)Start:(id)sender{
+    
 }
 
 - (void)didReceiveMemoryWarning
