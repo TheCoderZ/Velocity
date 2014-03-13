@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0349F01A18B6CA8A00908E01 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0349F01918B6CA8A00908E01 /* GameOverScene.m */; };
-		03565CB518B31484003C916C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03565CB418B31484003C916C /* Images.xcassets */; };
 		03B607BD18AC2B0B00495A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607BC18AC2B0B00495A96 /* Foundation.framework */; };
 		03B607BF18AC2B0B00495A96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607BE18AC2B0B00495A96 /* CoreGraphics.framework */; };
 		03B607C118AC2B0B00495A96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607C018AC2B0B00495A96 /* UIKit.framework */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		0349F01818B6CA8A00908E01 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = ../GameOverScene.h; sourceTree = "<group>"; };
 		0349F01918B6CA8A00908E01 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverScene.m; path = ../GameOverScene.m; sourceTree = "<group>"; };
-		03565CB418B31484003C916C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../.Trash/Images.xcassets; sourceTree = "<group>"; };
 		03B607B918AC2B0B00495A96 /* velocity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = velocity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B607BC18AC2B0B00495A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03B607BE18AC2B0B00495A96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -144,7 +142,6 @@
 				0349F01818B6CA8A00908E01 /* GameOverScene.h */,
 				0349F01918B6CA8A00908E01 /* GameOverScene.m */,
 				03B607D918AC2B0B00495A96 /* Spaceship.png */,
-				03565CB418B31484003C916C /* Images.xcassets */,
 				03B607C518AC2B0B00495A96 /* Supporting Files */,
 			);
 			path = velocity;
@@ -257,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B607C918AC2B0B00495A96 /* InfoPlist.strings in Resources */,
-				03565CB518B31484003C916C /* Images.xcassets in Resources */,
 				03B607DA18AC2B0B00495A96 /* Spaceship.png in Resources */,
 				6C0DA14318D1390B00BD6386 /* Images.xcassets in Resources */,
 				03EA4DF918B3247F002498C5 /* Main.storyboard in Resources */,
