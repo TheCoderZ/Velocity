@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0349F01118B6B46500908E01 /* Programming_Velocity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0349F01018B6B46500908E01 /* Programming_Velocity.mp3 */; };
 		0349F01A18B6CA8A00908E01 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0349F01918B6CA8A00908E01 /* GameOverScene.m */; };
 		03565CB518B31484003C916C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03565CB418B31484003C916C /* Images.xcassets */; };
 		03B607BD18AC2B0B00495A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B607BC18AC2B0B00495A96 /* Foundation.framework */; };
@@ -27,6 +26,8 @@
 		03B607EF18AC2B0B00495A96 /* velocityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B607EE18AC2B0B00495A96 /* velocityTests.m */; };
 		03EA4DF918B3247F002498C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EA4DF718B3247F002498C5 /* Main.storyboard */; };
 		03EA688518B7FC3300A527DD /* StartGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA688418B7FC3300A527DD /* StartGameScene.m */; };
+		6C0DA14118D138EF00BD6386 /* Programming_Velocity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C0DA14018D138EE00BD6386 /* Programming_Velocity.mp3 */; };
+		6C0DA14318D1390B00BD6386 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0DA14218D1390B00BD6386 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0349F01018B6B46500908E01 /* Programming_Velocity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Programming_Velocity.mp3; path = "../../../../Music/iTunes/iTunes Media/Music/Adil Rahman/Adil Rahman's Album/Programming_Velocity.mp3"; sourceTree = "<group>"; };
 		0349F01818B6CA8A00908E01 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = ../GameOverScene.h; sourceTree = "<group>"; };
 		0349F01918B6CA8A00908E01 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverScene.m; path = ../GameOverScene.m; sourceTree = "<group>"; };
 		03565CB418B31484003C916C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../.Trash/Images.xcassets; sourceTree = "<group>"; };
@@ -68,6 +68,8 @@
 		03EA4DF818B3247F002498C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03EA688318B7FC3300A527DD /* StartGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartGameScene.h; sourceTree = "<group>"; };
 		03EA688418B7FC3300A527DD /* StartGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartGameScene.m; sourceTree = "<group>"; };
+		6C0DA14018D138EE00BD6386 /* Programming_Velocity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Programming_Velocity.mp3; path = ../../Programming_Velocity.mp3; sourceTree = "<group>"; };
+		6C0DA14218D1390B00BD6386 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		03B607C418AC2B0B00495A96 /* velocity */ = {
 			isa = PBXGroup;
 			children = (
+				6C0DA14218D1390B00BD6386 /* Images.xcassets */,
 				03B607CD18AC2B0B00495A96 /* AppDelegate.h */,
 				03B607CE18AC2B0B00495A96 /* AppDelegate.m */,
 				03EA4DF718B3247F002498C5 /* Main.storyboard */,
@@ -150,7 +153,7 @@
 		03B607C518AC2B0B00495A96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0349F01018B6B46500908E01 /* Programming_Velocity.mp3 */,
+				6C0DA14018D138EE00BD6386 /* Programming_Velocity.mp3 */,
 				03B607C618AC2B0B00495A96 /* velocity-Info.plist */,
 				03B607C718AC2B0B00495A96 /* InfoPlist.strings */,
 				03B607CA18AC2B0B00495A96 /* main.m */,
@@ -256,8 +259,9 @@
 				03B607C918AC2B0B00495A96 /* InfoPlist.strings in Resources */,
 				03565CB518B31484003C916C /* Images.xcassets in Resources */,
 				03B607DA18AC2B0B00495A96 /* Spaceship.png in Resources */,
+				6C0DA14318D1390B00BD6386 /* Images.xcassets in Resources */,
 				03EA4DF918B3247F002498C5 /* Main.storyboard in Resources */,
-				0349F01118B6B46500908E01 /* Programming_Velocity.mp3 in Resources */,
+				6C0DA14118D138EF00BD6386 /* Programming_Velocity.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
